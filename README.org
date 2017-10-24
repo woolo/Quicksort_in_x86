@@ -29,6 +29,8 @@ gdb quickSort
 
 * Credit
   The code is based on a [[https://stackoverflow.com/questions/32916387/optmization-for-quicksort-in-x86-32-bit-assembly][question]] on stackoverflow, asked by pushebp and answered by davmac.
-  Woolo implements the additional functions, which includes:
+  Woolo implements the additional functions and comments, which includes:
   1. Accepting numbers as arguments from command line.
   2. Being able to sort negative numbers as well.
+  3. Printing out the original input and sorted output
+  4. More comments for explaination.
