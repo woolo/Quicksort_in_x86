@@ -19,9 +19,6 @@ gcc -m32 -fno-pic quickSort.o -o quickSort
 
 <<<<<<< HEAD
 ** Or using the auto_test.sh bash script to do all the things in one step:
-=======
-** Or using the auto_test.sh basj script to do all the things in one step:
->>>>>>> 521b208c4dbdef2fc9d8768b3a239e1a8b420ddc
 #+BEGIN_SRC shell
 ./auto_test.sh
 #+END_SRC
