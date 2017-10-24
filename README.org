@@ -2,27 +2,27 @@
   This project is a x86 implementation of the [[https://en.wikipedia.org/wiki/Quicksort][Quicksort]].
 
 * Instructions
-** The following code will convert quickSort.asm into executable quickSort.o
+** Converting quickSort.asm into executable quickSort.o
 #+BEGIN_SRC shell
 nasm -f elf32 quickSort.asm -o quickSort.o
 #+END_SRC
 
-** The following command line will use gcc to compile the object file into binary
+** Using gcc to compile the object file into binary
 #+BEGIN_SRC shell
 gcc -m32 -fno-pic quickSort.o -o quickSort
 #+END_SRC
 
-** One can use the binary file like this(up to 1000 integers type parameter are allowed):
+** Runing quickSort (up to 1000 integers as parameters are allowed):
 #+BEGIN_SRC shell
 ./quickSort -98 55 66 -24 74 65 0 99
 #+END_SRC
 
-** Or you can use the auto_test.sh shell script to do all the things in one step:
+** Or using the auto_test.sh bash script to do all the things in one step:
 #+BEGIN_SRC shell
 ./auto_test.sh
 #+END_SRC
 
-** for degugging
+** Degugging:
 #+BEGIN_SRC shell
 gdb quickSort
 #+END_SRC
