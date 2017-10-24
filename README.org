@@ -17,7 +17,6 @@ gcc -m32 -fno-pic quickSort.o -o quickSort
 ./quickSort -98 55 66 -24 74 65 0 99
 #+END_SRC
 
-<<<<<<< HEAD
 ** Or using the auto_test.sh bash script to do all the things in one step:
 #+BEGIN_SRC shell
 ./auto_test.sh
